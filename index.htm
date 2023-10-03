@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Keofi </title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/index.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merienda&family=Oswald:wght@300;400;500&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <p class="header-top-text">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          <span class="span">Horário de funcionamento:</span> 08h00 - 21h00
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <p class="header-top-text">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          <span class="span">Localização:</span> 55 RUDGE RAMOS, AV. BRASIL
+        </p>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="216" height="80" alt="keofi home" class="w-100">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Iníciol</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>Sobre</a>
+            </li>
+
+            <li>
+              <a href="#menu" class="navbar-link" data-nav-link>Menu</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>Contatos</a>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">Reservar uma mesa</a>
+
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="span"></span>
+          <span class="span"></span>
+        </button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" id="home" aria-labelledby="hero-label"
+        style="background-image: url('./assets/images/hero-banner.jpg')">
+        <div class="container">
+
+          <p class="section-subtitle has-before reveal-left" data-reveal>Bem vindo ao Keofi</p>
+
+          <h1 class="h1 hero-title reveal-left" id="hero-label" data-reveal>Ótimo café, boas vibrações</h1>
+
+          <div class="btn-group reveal-left" data-reveal>
+            <a href="#" class="btn btn-primary">
+              <span class="span">Explore mais</span>
+
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+            <a href="#" class="btn btn-secondary">
+              <span class="span">Obter entrega</span>
+
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="section-subtitle reveal-left" id="about-label" data-reveal>Sobre nós</p>
+
+            <h2 class="h2 section-title reveal-left" data-reveal>Centro fornecedor de café orgânico e fresco</h2>
+
+            <p class="section-text reveal-left" data-reveal>
+              Nosso centro é mais do que apenas um fornecedor de café orgânico e fresco; 
+              somos apaixonados por oferecer aos nossos clientes uma experiência excepcional 
+              em cada xícara. Situado em um cenário pitoresco, no coração das montanhas onde
+               nossos grãos de café são cultivados de forma sustentável, somos dedicados a
+                trazer a você o melhor da natureza em forma de café.
+            </p>
+
+            <div class="about-card reveal-left" data-reveal>
+              <figure class="card-banner img-holder" style="--width: 95; --height: 95;">
+                <img src="./assets/images/about-img.png" width="95" height="95" loading="lazy" alt="john doe"
+                  class="img-cover">
+              </figure>
+
+              <p class="card-text">
+                Nosso café é excepcionalmente preparado para uma experiência única de sabor e aroma.
+              </p>
+            </div>
+
+          </div>
+
+          <figure class="about-banner reveal-right" data-reveal>
+            <img src="./assets/images/about-banner.png" width="686" height="544" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-label="service">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <a href="#" class="service-card" data-reveal>
+
+                <figure class="card-banner">
+                  <img src="./assets/images/service-1.jpg" width="450" height="350" loading="lazy" alt="Restaurant Menu"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content has-before">
+                  <ion-icon name="restaurant-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Cardápio do restaurante</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="service-card" data-reveal>
+
+                <figure class="card-banner">
+                  <img src="./assets/images/service-2.jpg" width="450" height="350" loading="lazy" alt="Coffee Menu"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content has-before">
+                  <ion-icon name="cafe-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Menu Café</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="service-card" data-reveal>
+
+                <figure class="card-banner">
+                  <img src="./assets/images/service-3.jpg" width="450" height="350" loading="lazy" alt="Food Services"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content has-before">
+                  <ion-icon name="wine-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Serviços alimentícios</h3>
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu has-bg-image" id="menu" aria-labelledby="menu-label"
+        style="background-image: url('./assets/images/menu-bg.jpg')">
+        <div class="container">
+
+          <p class="section-subtitle text-center" data-reveal>Escolha o melhor café</p>
+
+          <h2 class="h2 section-title text-center" id="menu-label" data-reveal>
+            Menu de Café Popular Kaffen
+          </h2>
+
+          <ul class="grid-list" style="background-image: url('./assets/images/menu-bg-logo.png')">
+
+            <li>
+              <div class="menu-card" data-reveal>
+
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu-1.jpg" width="200" height="200" loading="lazy" alt="Americano Coffee"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Café Americano</h3>
+
+                  <p class="card-text">
+                    2/3 de café expresso, 1/3 de leite condensado
+                  </p>
+
+                  <data class="card-price has-before" value="6.0">R$6,00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card" data-reveal>
+
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu-2.jpg" width="200" height="200" loading="lazy" alt="Espresso Coffee"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Café expresso</h3>
+
+                  <p class="card-text">
+                    2/3 de café expresso, 1/3 de leite condensado
+                  </p>
+
+                  <data class="card-price has-before" value="8.0">R$ 8,00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card" data-reveal>
+
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu-3.jpg" width="200" height="200" loading="lazy"
+                    alt="Barista Pouring Syrup" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Xarope para servir barista</h3>
+
+                  <p class="card-text">
+                    2/3 de café expresso, 1/3 de leite condensado
+                  </p>
+
+                  <data class="card-price has-before" value="3.50">R$3,50</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card" data-reveal>
+
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu-4.jpg" width="200" height="200" loading="lazy" alt="Cold - Coffee"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Café frio</h3>
+
+                  <p class="card-text">
+                  2/3 de café expresso, 1/3 de leite condensado
+                  </p>
+
+                  <data class="card-price has-before" value="9.0">R$9,00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card" data-reveal>
+
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu-5.jpg" width="200" height="200" loading="lazy" alt="Cappuccino Arabica"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Capuccino Arábica</h3>
+
+                  <p class="card-text">
+                    2/3 de café expresso, 1/3 de leite condensado
+                  </p>
+
+                  <data class="card-price has-before" value="2.8">R$2,80</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card" data-reveal>
+
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu-6.jpg" width="200" height="200" loading="lazy" alt="Milk Cream Coffee"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Café com Creme de Leite</h3>
+
+                  <p class="card-text">
+                    2/3 de café expresso, 1/3 de leite condensado
+                  </p>
+
+                  <data class="card-price has-before" value="7.50">R$7,50</data>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner img-holder reveal-left" style="--width: 560; --height: 700;" data-reveal>
+            <img src="./assets/images/feature-banner.jpg" width="560" height="700" loading="lazy" alt="feature banner"
+              class="img-cover">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle reveal-right" data-reveal>Porque escolher-nos</p>
+
+            <h2 class="h2 section-title reveal-right" id="feature-label" data-reveal>New London Coffee fundado para
+              Teste Extraordinário
+            </h2>
+
+            <p class="section-text reveal-right" data-reveal>
+              O New London Coffee é resultado de uma paixão excepcional por cafés de alta qualidade.
+               Fundado para realizar o "Teste Extraordinário", nosso compromisso é elevar o padrão do café,
+                explorando novos sabores e experiências únicas. Com blends cuidadosamente selecionados e um
+                 processo de torrefação preciso, buscamos proporcionar uma jornada sensorial extraordinária a
+                  todos os amantes de café. Cada xícara é uma celebração do incomum, convidando os apreciadores 
+                  a explorar nuances de aromas e sabores que desafiam as convenções do comum. Junte-se a nós nesta 
+                  busca pela perfeição na xícara, onde cada café conta uma história única.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card reveal-right" data-reveal>
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-1.png" width="70" height="70" loading="lazy"
+                      alt="feature icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Grãos de café naturais</h3>
+
+                    <p class="card-text">
+                      Grãos de Café Naturais são a expressão pura e autêntica do café, preservando 
+                      as nuances naturais de sabor de cada origem. Cada xícara oferece uma experiência
+                       sensorial única, celebrando a essência singular do café.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card reveal-right" data-reveal>
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-2.png" width="70" height="70" loading="lazy"
+                      alt="feature icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Certificação 100% ISO</h3>
+
+                    <p class="card-text">
+                      Certificação 100% ISO = café top! Padrões internacionais? Check! Escolheu certificado =
+                       escolheu qualidade. Selo ISO = compromisso sério com melhorias e 
+                       satisfação do cliente. Top qualidade sempre!
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <a href="#" class="btn btn-primary reveal-right" data-reveal>
+              <span class="span">Explore mais</span>
+
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <img src="./assets/images/feature-abs-1.png" width="318" height="290" loading="lazy" alt=""
+            class="abs-img abs-img-1">
+
+          <img src="./assets/images/feature-abs-2.png" width="262" height="356" loading="lazy" alt=""
+            class="abs-img abs-img-2">
+
+          <img src="./assets/images/feature-abs-3.png" width="410" height="212" loading="lazy" alt=""
+            class="abs-img abs-img-3">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-labelledby="blog-label">
+        <div class="container">
+
+          <p class="section-subtitle text-center" data-reveal>Obtenha todas as atualizações</p>
+
+          <h2 class="h2 section-title text-center" id="blog-label" data-reveal>
+            Leia alguns blogs e notícias mais recentes
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <a href="#" class="blog-card has-before" data-reveal>
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-1.jpg" width="670" height="450" loading="lazy"
+                    alt="SWR React Hooks With Next Increm Ental Static Regeneration" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">SWR React Ganchos com Regeneração Estática Next Increm Ental</h3>
+
+                  <div class="card-meta">
+
+                    <div class="meta-wrapper">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2022-09-25">25 de setembro de 2023</time>
+                    </div>
+
+                    <div class="meta-wrapper">
+                      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">Comentários (20)</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="blog-card has-before" data-reveal>
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-2.jpg" width="670" height="450" loading="lazy"
+                    alt="Decisions For Building Flexible Components DevTools Browser" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Decisões para construir componentes flexíveis do navegador DevTools</h3>
+
+                  <div class="card-meta">
+
+                    <div class="meta-wrapper">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2022-09-27">27 de setembro de 2023</time>
+                    </div>
+
+                    <div class="meta-wrapper">
+                      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">Comentarios (40)</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="blog-card has-before" data-reveal>
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-3.jpg" width="670" height="450" loading="lazy"
+                    alt="SWR React Hooks With Next Increm Ental Static Regeneration" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">SWR React Ganchos com Regeneração Estática Next Increm Ental</h3>
+
+                  <div class="card-meta">
+
+                    <div class="meta-wrapper">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2022-09-25">30 de setembro de 2023</time>
+                    </div>
+
+                    <div class="meta-wrapper">
+                      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">Comentários (28)</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary" data-reveal>
+            <span class="span">Ver tudo</span>
+
+            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta has-bg-image" aria-labelledby="cta-label"
+        style="background-image: url('./assets/images/cta-bg.jpg')">
+        <div class="container">
+
+          <div>
+            <p class="section-subtitle reveal-left" data-reveal>Precisa de uma mesa na cafeteria</p>
+
+            <h2 class="h2 section-title reveal-left" id="cta-label" data-reveal>Mesa de reserva para você e familiares
+            </h2>
+          </div>
+
+          <a href="#" class="btn btn-primary reveal-right" data-reveal>
+            <span class="span">Tabela de Reservas</span>
+
+            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="contact">
+    <div class="container">
+
+      <div class="footer-top section" data-reveal>
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="216" height="80" class="w-100" alt="Keofi home">
+          </a>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Jornada de trabalho</p>
+          </li>
+
+          <li class="footer-list-item">
+            <p>Domingo - Quinta-feira</p>
+
+            <span class="span">08h00 - 21h00</span>
+          </li>
+
+          <li class="footer-list-item">
+            <p>Somente sexta-feira</p>
+
+            <span class="span">15h00 - 21h00</span>
+          </li>
+
+          <li class="footer-list-item">
+            <strong class="strong">Sábado Fechado</strong>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contate-nos</p>
+          </li>
+
+          <li>
+            <div class="wrapper">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+              <div>
+                <span class="span">Localização:</span>
+
+                <p>55 RUDGE RAMOS, AV. BRASIL</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="wrapper">
+              <ion-icon name="mail-unread-outline" aria-hidden="true"></ion-icon>
+
+              <div>
+                <span class="span">Endereço de email :</span>
+
+                <p>keofi@gmail.com</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="wrapper">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <div>
+                <span class="span">Número de telefone :</span>
+
+                <p>+55(11)95335-7757</p>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Galeria</p>
+          </li>
+
+          <li>
+            <ul class="grid-list">
+
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/gallery-1.jpg" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/gallery-2.jpg" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/gallery-3.jpg" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/gallery-4.jpg" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/gallery-5.jpg" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/gallery-1.jpg" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy;  Direitos Reservados - Miquéias Silva
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/index.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
